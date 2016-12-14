@@ -9,7 +9,7 @@ Scripts die gebruikt kunnen worden bij het verzamelen van data via APIs of scrap
 
 ## Netwerkanalyses
 Scripts die gebruikt kunnen worden om netwerkanalyses uit te voeren  
-* [Omvormen ruwe data naar netwerkdata (igraph en .gexf)](/dataviz/text2gephi.R)
+* [Omvormen ruwe data naar netwerkdata (igraph en .gexf)](/network/df2network.R)
 
 ## Tekstanalyse
 Scripts die gebruikt kunnen worden bij het analyseren van tekst (NLP)
