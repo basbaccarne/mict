@@ -1,7 +1,7 @@
 # Select relational data
 data_relations <- data.frame(
-        van = data$from,
-        naar = data$to
+        from = data$from,
+        to = data$to
 )
 # make sure you have no missing values
 
