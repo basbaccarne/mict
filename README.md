@@ -7,6 +7,10 @@ Scripts die helpen bij API authentificatie
 ## Dataverzameling
 Scripts die gebruikt kunnen worden bij het verzamelen van data via APIs of scraping
 
+## Netwerkanalyses
+Scripts die gebruikt kunnen worden om netwerkanalyses uit te voeren
+[Omvormen ruwe data naar netwerkdata (igraph en .gexf)](mict/blob/master/dataviz/text2gephi.R)
+
 ## Tekstanalyse
 Scripts die gebruikt kunnen worden bij het analyseren van tekst (NLP)
 
