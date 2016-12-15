@@ -5,7 +5,8 @@ Deze repo bevat een overzicht van de R scripts die bruikbaar zijn binnen onze on
 Scripts die helpen bij API authentificatie 
 
 ## Dataverzameling
-Scripts die gebruikt kunnen worden bij het verzamelen van data via APIs of scraping
+Scripts die gebruikt kunnen worden bij het verzamelen van data via APIs of scraping  
+* [Importeren van (online) data in JSON formaat] (/collection/fromJSON.R)
 
 ## Netwerkanalyses
 Scripts die gebruikt kunnen worden om netwerkanalyses uit te voeren  
