@@ -10,8 +10,8 @@ relations_vector <- vector()
   for(i in 1:nrow(data_relations)){
         relations_vector <- c(
                 relations_vector,
-                as.character(data$from[i]), 
-                as.character(data$to[i]))
+                as.character(data_relations$from[i]), 
+                as.character(data_relations$to[i]))
 }
 # "&" character might cause errors. If so, remove from data
 
