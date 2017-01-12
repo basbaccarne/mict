@@ -15,6 +15,7 @@ Scripts die gebruikt kunnen worden om netwerkanalyses uit te voeren
 
 ## Tekstanalyse
 Scripts die gebruikt kunnen worden bij het analyseren van tekst (NLP)
+*[lemmatization: omvormen van woorden naar gemeenschappelijke kernen (lemma's)](/NLP/lemmatizing.R)
 
 ## Beeldanalyse
 Scripts die gebruikt kunnen worden bij het analyseren van foto of statisch beeldmateriaal
