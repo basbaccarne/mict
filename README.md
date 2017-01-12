@@ -14,7 +14,7 @@ Scripts die gebruikt kunnen worden om netwerkanalyses uit te voeren
 * [Omvormen ruwe data naar netwerkdata (igraph en .gexf)](/network/df2network.R)
 
 ## Tekstanalyse
-Scripts die gebruikt kunnen worden bij het analyseren van tekst (NLP)
+Scripts die gebruikt kunnen worden bij het analyseren van tekst (NLP)  
 *[lemmatization: omvormen van woorden naar gemeenschappelijke kernen (lemma's)](/NLP/lemmatizing.R)
 
 ## Beeldanalyse
