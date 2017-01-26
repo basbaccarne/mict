@@ -1,6 +1,7 @@
 # function to transform facebook pagedata collected with ncapture to a gephi file and igraph file
-# NCAPTURE > http://www.qsrinternational.com/nvivo-support/faqs/what-is-ncapture
+# NCAPTURE > https://chrome.google.com/webstore/detail/ncapture/lgomjifbpjfhpodjhihemafahhmegbek
 # required packages: openxlsx, dplyr, igraph, rgexf (install first)
+# check if first sheet is names "Table1-1", as is the NCAPTURE default naming
 
 # call function with: ncapture2gexf(ncapturefile,output.filename.gexf)
 
@@ -14,7 +15,7 @@ ncapture2gexf <- function(ncapturefile, output.filename.gexf){
         
         # import data
         print("starting import ...")
-        ncapturedata <- read.xlsx(ncapturefile, sheet = 1, colNames = TRUE)
+        ncapturedata <- read.xlsx(ncapturefile, sheet = "Table1-1", colNames = TRUE)
         print(paste("file -", ncapturefile, "- succesfuly imported"))
         print("processing data ...")
               
