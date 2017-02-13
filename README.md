@@ -30,3 +30,4 @@ Blogs, MOOCS, websites en andere bronnen die kunnen inspireren
 * [Stack Overflow (vragen en problemen)](http://stackoverflow.com/)
 * [Coursera MOOC Data Science (goede introductie voor wie van nul start)](https://www.coursera.org/learn/r-programming)
 * [ggplot2 cheat sheet (handig overzicht voor dataviz in ggplot2)](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+* [dataviz.tools](http://dataviz.tools/)
