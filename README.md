@@ -1,4 +1,4 @@
-# Overzicht (her)bruikbare R scripts
+# Overzicht (her)bruikbare R & Python scripts
 Deze repo bevat een overzicht van de R scripts die bruikbaar zijn binnen onze onderzoeksgroep en binnen de opleiding Nieuwe Media en Maatschappij.
 
 ## Authentificatie
@@ -8,6 +8,9 @@ Scripts die helpen bij API authentificatie
 Scripts die gebruikt kunnen worden bij het verzamelen van data via APIs of scraping  
 * [Importeren van (online) data in JSON formaat](/collection/fromJSON.R)
 * [Importeren van Reddit data](/collection/fromReddit.R)
+
+## MobileDNA
+Scipts gerelateerd aan de specifieke onderzoekstool Mobile DNA
 
 ## Netwerkanalyses
 Scripts die gebruikt kunnen worden om netwerkanalyses uit te voeren  
