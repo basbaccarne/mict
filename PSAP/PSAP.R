@@ -110,7 +110,7 @@ PSAP <- function(PSAP1, PSAP2, PSAP3) {
   mapping_matrix[4,4,1] <- NA
   mapping_matrix[4,4,2] <- NA
   mapping_matrix[4,4,3] <- NA
-  mapping_matrix[4,4,4] <- 5
+  mapping_matrix[4,4,4] <- 4
   mapping_matrix[4,4,5] <- 5
   mapping_matrix[4,5,1] <- NA
   mapping_matrix[4,5,2] <- NA
