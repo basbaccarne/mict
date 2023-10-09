@@ -12,42 +12,49 @@
 # questionable = combination is not valid
 
 kano <- function(functional, disfunctional){
-  if((functional == 5 & disfunctional == 5) |
-     (functional == 1 & disfunctional == 1)){
-    kano_cat <- "questionable"
+  
+  kano_cat =NA
+  
+  for(i in 1:length(functional)){
+    
+    if((functional[i] == 5 & disfunctional[i] == 5) |
+       (functional[i] == 1 & disfunctional[i] == 1)){
+      kano_cat[i] <- "questionable"
+    }
+    if((functional[i] == 5 & disfunctional[i] == 4) |
+       (functional[i] == 5 & disfunctional[i] == 3) |
+       (functional[i] == 5 & disfunctional[i] == 2)){
+      kano_cat[i] <- "delightful"
+    }
+    if(functional[i] == 5 & disfunctional[i] == 1){
+      kano_cat[i] <- "desired"
+    }
+    if((functional[i] == 4 & disfunctional[i] == 5) |
+       (functional[i] == 3 & disfunctional[i] == 5) |
+       (functional[i] == 2 & disfunctional[i] == 5) |
+       (functional[i] == 1 & disfunctional[i] == 5) |
+       (functional[i] == 1 & disfunctional[i] == 4) |
+       (functional[i] == 1 & disfunctional[i] == 3) |
+       (functional[i] == 1 & disfunctional[i] == 2)){
+      kano_cat[i] <- "anti-feature"
+    }
+    if((functional[i] == 4 & disfunctional[i] == 4) |
+       (functional[i] == 4 & disfunctional[i] == 3) |
+       (functional[i] == 4 & disfunctional[i] == 2) |
+       (functional[i] == 3 & disfunctional[i] == 4) |
+       (functional[i] == 3 & disfunctional[i] == 3) |
+       (functional[i] == 3 & disfunctional[i] == 2) |
+       (functional[i] == 2 & disfunctional[i] == 4) |
+       (functional[i] == 2 & disfunctional[i] == 3) |
+       (functional[i] == 2 & disfunctional[i] == 2)){
+      kano_cat[i] <- "indifferent"
+    }
+    if((functional[i] == 4 & disfunctional[i] == 1) |
+       (functional[i] == 3 & disfunctional[i] == 1) |
+       (functional[i] == 2 & disfunctional[i] == 1)){
+      kano_cat[i] <- "required"
+    }
   }
-  if((functional == 5 & disfunctional == 4) |
-     (functional == 5 & disfunctional == 3) |
-     (functional == 5 & disfunctional == 2)){
-    kano_cat <- "delightful"
-  }
-  if(functional == 5 & disfunctional == 1){
-    kano_cat <- "desired"
-  }
-  if((functional == 4 & disfunctional == 5) |
-     (functional == 3 & disfunctional == 5) |
-     (functional == 2 & disfunctional == 5) |
-     (functional == 1 & disfunctional == 5) |
-     (functional == 1 & disfunctional == 4) |
-     (functional == 1 & disfunctional == 3) |
-     (functional == 1 & disfunctional == 2)){
-    kano_cat <- "anti-feature"
-  }
-  if((functional == 4 & disfunctional == 4) |
-     (functional == 4 & disfunctional == 3) |
-     (functional == 4 & disfunctional == 2) |
-     (functional == 3 & disfunctional == 4) |
-     (functional == 3 & disfunctional == 3) |
-     (functional == 3 & disfunctional == 2) |
-     (functional == 2 & disfunctional == 4) |
-     (functional == 2 & disfunctional == 3) |
-     (functional == 2 & disfunctional == 2)){
-    kano_cat <- "indifferent"
-  }
-  if((functional == 4 & disfunctional == 1) |
-     (functional == 3 & disfunctional == 1) |
-     (functional == 2 & disfunctional == 1)){
-    kano_cat <- "required"
-  }
+  
   kano_cat
 }
